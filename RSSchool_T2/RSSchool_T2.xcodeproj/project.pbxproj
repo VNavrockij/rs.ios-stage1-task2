@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DA92742423C7ED00B23850 /* BlocksTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA926E2423C7ED00B23850 /* BlocksTest.m */; };
-		25DA92752423C7ED00B23850 /* DatesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA926F2423C7ED00B23850 /* DatesTest.m */; };
-		25DA92762423C7ED00B23850 /* AbbreviationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92702423C7ED00B23850 /* AbbreviationTests.m */; };
-		25DA92772423C7ED00B23850 /* TimeInWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92712423C7ED00B23850 /* TimeInWordsTests.m */; };
-		25DA92782423C7ED00B23850 /* FibonacciNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92722423C7ED00B23850 /* FibonacciNumbersTests.m */; };
-		25DA92792423C7ED00B23850 /* StringTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92732423C7ED00B23850 /* StringTransform.m */; };
 		25DA92962423CA4000B23850 /* Fibonacci numbers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25DA927F2423CA4000B23850 /* Fibonacci numbers.pdf */; };
 		25DA92972423CA4000B23850 /* FibonacciResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92812423CA4000B23850 /* FibonacciResolver.m */; };
-		25DA92982423CA4000B23850 /* Dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92832423CA4000B23850 /* Dates.m */; };
 		25DA92992423CA4000B23850 /* DateFormatter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25DA92842423CA4000B23850 /* DateFormatter.pdf */; };
 		25DA929A2423CA4000B23850 /* NSString+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92882423CA4000B23850 /* NSString+Transform.m */; };
 		25DA929B2423CA4000B23850 /* Pangram.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25DA92892423CA4000B23850 /* Pangram.pdf */; };
@@ -25,6 +18,13 @@
 		25DA929F2423CA4000B23850 /* TimeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92902423CA4000B23850 /* TimeConverter.m */; };
 		25DA92A02423CA4000B23850 /* Blocks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25DA92932423CA4000B23850 /* Blocks.pdf */; };
 		25DA92A12423CA4000B23850 /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92942423CA4000B23850 /* Blocks.m */; };
+		AF26E4FA24265D8B00324DFC /* Dates.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92832423CA4000B23850 /* Dates.m */; };
+		AF7893162426606B0046901B /* DatesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA926F2423C7ED00B23850 /* DatesTest.m */; };
+		AF7893172426606B0046901B /* TimeInWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92712423C7ED00B23850 /* TimeInWordsTests.m */; };
+		AF7893182426606B0046901B /* AbbreviationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92702423C7ED00B23850 /* AbbreviationTests.m */; };
+		AF7893192426606B0046901B /* StringTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92732423C7ED00B23850 /* StringTransform.m */; };
+		AF78931A2426606B0046901B /* BlocksTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA926E2423C7ED00B23850 /* BlocksTest.m */; };
+		AF78931B2426606B0046901B /* FibonacciNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA92722423C7ED00B23850 /* FibonacciNumbersTests.m */; };
 		E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D96224A3CDE009EF306 /* AppDelegate.m */; };
 		E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D99224A3CDE009EF306 /* ViewController.m */; };
 		E38F8D9F224A3CE0009EF306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F8D9E224A3CE0009EF306 /* Assets.xcassets */; };
@@ -331,8 +331,8 @@
 				25DA92972423CA4000B23850 /* FibonacciResolver.m in Sources */,
 				E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */,
 				25DA929A2423CA4000B23850 /* NSString+Transform.m in Sources */,
-				25DA92982423CA4000B23850 /* Dates.m in Sources */,
 				25DA929D2423CA4000B23850 /* AbbreviationMaker.m in Sources */,
+				AF26E4FA24265D8B00324DFC /* Dates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +340,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DA92742423C7ED00B23850 /* BlocksTest.m in Sources */,
-				25DA92782423C7ED00B23850 /* FibonacciNumbersTests.m in Sources */,
-				25DA92772423C7ED00B23850 /* TimeInWordsTests.m in Sources */,
-				25DA92752423C7ED00B23850 /* DatesTest.m in Sources */,
-				25DA92762423C7ED00B23850 /* AbbreviationTests.m in Sources */,
-				25DA92792423C7ED00B23850 /* StringTransform.m in Sources */,
+				AF7893162426606B0046901B /* DatesTest.m in Sources */,
+				AF7893172426606B0046901B /* TimeInWordsTests.m in Sources */,
+				AF7893182426606B0046901B /* AbbreviationTests.m in Sources */,
+				AF7893192426606B0046901B /* StringTransform.m in Sources */,
+				AF78931A2426606B0046901B /* BlocksTest.m in Sources */,
+				AF78931B2426606B0046901B /* FibonacciNumbersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
